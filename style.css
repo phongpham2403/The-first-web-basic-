@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+} 
+
+hr {
+margin: 84px 0;
+border: 1px solid #eee;
+}
+
+.font-15 {
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.font-other {
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* Header */
+.header {
+    height: 100vh;
+    position: relative;
+    background: url(https://www.w3schools.com/w3images/hamburger.jpg) left top / cover no-repeat;
+}
+
+.header h1 {
+    font-size: 36px;
+    font-weight: 400;
+    opacity: 0.6;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 580px;
+    left: 24px;
+}
+
+.nav {
+    height: 54px;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: fixed;
+}
+
+.nav-list {
+    margin: auto 36px;
+}
+
+.nav-list .list-item {
+
+}
+
+.nav-list li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-list a {
+    color: #000;
+    padding: 12px 16px;
+    letter-spacing: 3px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-list li:hover {
+    background-color: #ccc;
+}
+
+/* About */
+
+.content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto  ;
+    margin-top: 60px;
+    margin-bottom: 64px;
+}
+.content__about {
+    height: 580px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content__about-img {
+    border-radius: 4px;
+    flex-basis: 45%;
+    background: url(https://www.w3schools.com/w3images/tablesetting2.jpg);
+    background-size: cover;
+}
+
+.content__about-des {
+    flex-basis: 45%;
+}
+
+.content__about-des h1 {
+    font-size: 36px;
+}
+
+.content__about-des h5 {
+    font-size: 18px;
+}
+
+.content__about-des h1,
+.content__about-des h5 {
+    margin: 10px 0;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.content__about-des p {
+    font-size: 18px !important;
+    margin: 18px 0;
+    line-height: 1.6;
+}
+
+.content__about-des p:last-child{
+    opacity: 0.4;
+}
+
+
+/* Menu */
+
+.content__menu {
+    min-height: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content__menu-des {
+    flex-basis: 45%;
+}
+
+.content__menu-des h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.content__menu-des h4 {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.content__menu-des p {
+    margin: 15px 0;
+    font-size: 15px 0;
+}
+
+.content__menu-img {
+    height: 700px;
+    flex-basis: 45%;
+    background-image: url(https://www.w3schools.com/w3images/tablesetting.jpg);
+    background-size: cover;
+}
+
+/* Contact */
+.content__contact {
+    padding: 0 16px;
+}
+.content__contact h1{
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.content__contact p {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.content__contact p:nth-child(4) {
+    margin: 18px 0;
+    font-size: 18px;
+    color: #607d8b;
+}
+
+.content__contact input {
+    width: 100%;
+    padding: 16px 8px;
+    border: 0;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #eee;
+}
+
+.content__contact button {
+    border: none;
+    margin: 16px 0;
+    padding: 8px 16px;
+    font-size: 15px;
+    color: #000000;
+    background-color: #f1f1f1;
+}
+
+.content__contact button:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+.footer {
+    padding: 32px 0;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.footer p {
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.footer a {
+    color: #000;
+}
